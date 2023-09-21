@@ -1,0 +1,12 @@
+body {font-family: Verdana, sans-serif; }
+header, nav, section, article, footer , aside 
+{border:1px solid grey; margin:1px; padding:5px;}
+article {
+	padding:5px; 
+	border-width: 1px; 
+	text-align: left;
+	
+	margin:auto;
+	}
+
+a: link (text-decoration: none;)

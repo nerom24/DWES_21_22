@@ -1,0 +1,244 @@
+::[html]1. ¿Por qué es necesario el control de sesiones? {
+	~%-33.33333%	Las tres opciones dadas son correctas
+	~%-33.33333%	Debido a los tipos de variables de PHP 
+	~%-33.33333%	Salto de una web a otra implica la permanencia de datos 
+	=	Debido al Modelo Estático de la web
+}
+
+::[html]2. Objetivo fundamental del control de sesiones{
+	~%-33.33333%	Almacenar todos los valores PHP0
+	~%-33.33333%	Permitir almacenamiento fluido de los datos de la web
+	~%-33.33333%	Mantener la concurrencia de la web
+	=	Control acceso de usuarios
+}
+
+::[html]3. Métodos para realizar control de sesiones{
+	~%-33.33333%	Cookies
+	~%-33.33333%	Varaibles de sesión, cookies y clases
+	~%-33.33333%	Variables de sesión, cookies y array()
+	=	Variables de sesión y cookies
+}
+
+::[html]4. Es una propiedad de las cookies{
+	~%-33.33333%	El cliente puede bloquear su uso
+	~%-33.33333%	Muchos navegadores web no la soportan
+	~%-33.33333%	Se puede desactivar en el navegador
+	=	Las tres opciones dadas son correctas
+}
+
+::[html]5. session_destroy(){
+	~%-33.33333%	Destruye la sesión actual
+	~%-33.33333%	Destruye la sesión actual y las cookies
+	~%-33.33333%	Destruye la sesión actual, las cookies y las variables de sesión
+	=	Destruye la sesión actual pero no las variables de sesión
+}
+
+::[html]6. SID y variables de sesión{
+	~%-33.33333%	El SID sólo se almacena en el servidor
+	~%-33.33333%	Las variables de sesión sólo se almacenan en el cliente
+	~%-33.33333%	variables de sesión se almacenan en cliente y en el servidor
+	=	SID se almacena en el cliente y el servidor
+}
+
+::[html]7. ¿Se puede establecer un nombre a una sesión?{
+	~%-33.33333%	session_star('nombreSesion')
+	~%-33.33333%	session_id('nombreSesion')
+	~%-33.33333%	session_name()
+	=	session_name('nombreSesion')
+}
+
+::[html]8. Para destruir la variable de sesión '$user'{
+	~%-33.33333%	session_star($user)
+	~%-33.33333%	session_unse($user)
+	~%-33.33333%	sesion_unset($user)
+	=	session_unset()
+}
+
+::[html]9. $_SESSION = array() {
+	~%-33.33333%	Las tres opciones dadas son correctas
+	~%-33.33333%	Declara la variable $_SESSION de tipo array
+	~%-33.33333%	Declara el array que va a almacenar las variables de sesión
+	=	Destruye todas las variables de sesión
+}
+
+::[html]10. ¿Qué son las cookies?{
+	~%-33.33333%	Permiten el control de sesión
+	~%-33.33333%	Cadenas de texto que se almacenan en el cliente
+	~%-33.33333%	Información que envía el servidor al cliente
+	=	Las tres opciones dadas son correctas
+}
+
+::[html]11. $_COOKIE{
+	~%-33.33333%	Las tres opciones dadas son correctas
+	~%-33.33333%	Permite definir una cookie estableciendo un plazo 
+	~%-33.33333%	Permite definir una cookie
+	=  Permite acceder a la información que contiene una cookie	
+}
+
+::[html]12. setcookie("visitante", $numero, time() + 365 * 24 * 3600);{
+	~%-33.33333%	Define la cookie visitante que expira a las 24 horas
+	~%-33.33333%	Elimina la cookie visitante
+	~%-33.33333%	Establece la cookie $numero que expira al año
+	=	Define la cookie visitante que expira al año
+}
+
+::[html]13. setcookie("Libro"[0], "La Historia Interminable", time()+300);{
+	~%-33.33333%	No se pueden definir cookie como array()
+	~%-33.33333%	Sentencia correcta
+	~%-33.33333%	La sintáxis es incorrecta Libro[]="La Historia Interminable" en vez de "Libro"[0] 
+	=	La sintáxis es incorrecta: "Libro[0]" en vez de "Libro"[0]
+}
+
+::[html]14. ¿Qué tamaño no debería superar una cookie?{
+	~%-33.33333%	45 Kb
+	~%-33.33333%	4 b
+	~%-33.33333%	40 Kb
+	=	4 Kb
+}
+
+::[html]15. Uso de las cookies con cifrador{
+	~%-33.33333%	Impide el uso de las variables de sesión
+	~%-33.33333%	Evita en gran medida que se sobrepase el tamaño adecuado de cookie
+	~%-33.33333%	Permite acceder de forma más rápida a la cookie
+	=	Infla demasiado el tamaño de la cookie
+}
+
+::[html]16. Número máximo de cookies posibles en un disco duro{
+	~%-33.33333%	8
+	~%-33.33333%	40
+	~%-33.33333%	4
+	=	20
+}
+
+::[html]17. El navegador tiene bloqueado el uso de las cookies{
+	~%-33.33333%	Resultará imposible gestionar y controlar las sesiones
+	~%-33.33333%	Las tres opciones dadas son correctas
+	~%-33.33333%	Todo funcionará de la misma forma
+	=	He de programa alternativas con variables de sesión
+}
+
+::[html]18. ¿Qué es una cabecera en HTML?{
+	~%-33.33333%	Se establece justo antes de la etiqueta HTML
+	~%-33.33333%	Se establece con al etiqueta HEAD
+	~%-33.33333%	Código que permite mejorar la SEO o posicionamiento
+	=	Define una propiedad de la página y sus atributos
+}
+
+::[html]19. Función header(){
+	~%-33.33333%	Es conveniente ponerla siempre al final del script
+	~%-33.33333%	La aternativa PHP a la etiqueta HEAD de HTML
+	~%-33.33333%	Permite definir la cabecera de un documento PHP
+	=	Permite enviar cabeceras HTTP
+}
+
+::[html]20. Quiero volver a index.php {
+	~%-33.33333%	header(Location: index.php)
+	~%-33.33333%	header(Location: 'index.php')
+	~%-33.33333%	head('Location: index.php')
+	=	header('Location: index.php')
+}
+
+::[html]21. ¿Qué es la Programación Orientada a Objetos?{
+	~%-33.33333%	Estilo de prgoramación avanzado pero abstracto, ya que no representa a la realidad
+	~%-33.33333%	Estilo de programación procedural
+	~%-33.33333%	Estilo de programación obsoleto
+	=	Estilo de programación avanzado y extendido
+}
+
+::[html]22. ¿Qué son las clases? {
+	~%-33.33333%	Se crean a partir de un conjunto de métodos o funciones
+	~%-33.33333%	Se crean a partir de un conjunto de propiedades
+	~%-33.33333%	Se crean a partir de un objeto
+	=	Son definiciones a partir de las cuales se crean objetos
+}
+
+::[html]23. Concepto de Encapsulamiento{
+	~%-33.33333%	Conjunto de propieades y métodos de una clase
+	~%-33.33333%	Permite cambiar el valor de una propiedad o atributo desde fuera
+	~%-33.33333%	Mantienen ocultas las propiedades y los métodos de una clase
+	=	Mantienen ocultas las propieades de una clase
+}
+
+::[html]24. Concepto de abstracción{
+	~%-33.33333%	Permite el cambio del valor asignado a las propieades desde fuera
+	~%-33.33333%	Mantiene oculta las propieades y métodos de una clase
+	~%-33.33333%	Mantiene oculta las propiedades de una clase
+	=	Conjunto de propiedades y métodos de una clase
+}
+
+::[html]25. Variable $this{
+	~%-33.33333%	Permite definir una constante
+	~%-33.33333%	Tipo de variable que sólo se usa en POO
+	~%-33.33333%	Permite asignar un valor a una propiedad de la clase
+	=	Permite asignar un valor a una de las propieades de la clase desde un método
+}
+
+::[html]26. $user1=new usuario(){
+	~%-33.33333%	Creo un objeto a partir del método usuario de la clase user
+	~%-33.33333%	Defino la creación de una clase
+	~%-33.33333%	Creo una clase a partir del objeto usuario
+	=	Creo un objeto a partir de la clase usuario
+}
+
+::[html]27. $per1->imprimir('$archivo'){
+	~%-33.33333%	Uso el objeto $archivo de la clase imprimir
+	~%-33.33333%	Uso el objeto imprimir de la clase $per1
+	~%-33.33333%	Uso la clase imprimir del objeto $per1
+	=	Uso el método imprimir del objeto $per1 pasando como parámetro $archivo
+}
+
+::[html]28. cláusula extends{
+	~%-33.33333%	Permite que una clase padre herede los métodos y propieades de otra clase hija
+	~%-33.33333%	Permite definir las clases padres o superclases
+	~%-33.33333%	Permite aumentar el tamaño de una clase
+	=	Permite establecer el concepto de herencias 
+}
+
+::[html]29. Se puede acceder a $matricula desde exterior{
+	~%-33.33333%	var $matricula
+	~%-33.33333%	protected $matricula
+	~%-33.33333%	private $matricula
+	=	public $matricula
+}
+
+::[html]30. Permite el concepto de encapsulamiento{
+	~%-33.33333%	static
+	~%-33.33333%	public
+	~%-33.33333%	protected
+	=	setters y los getters
+}
+
+::[html]31. Permite el conecepto de herencia{
+	~%-33.33333%	private
+	~%-33.33333%	public
+	~%-33.33333%	setter y getters
+	=	protected
+}
+
+::[html]32. Permite usar atributo definido como static $valorIVA en un método{
+	~%-33.33333%	$valorIVA
+	~%-33.33333%	this->valorIVA
+	~%-33.33333%	$this->valirIVA
+	=	self\:\:$valorIVA
+}
+
+::[html]33. Alumno\:\:saludo() {
+	~%-33.33333%	Alumno es un objeto de tipo static
+	~%-33.33333%	Estoy usando el atributo saludo definido como estático
+	~%-33.33333%	Los métodos estáticos no se pueden usar desde fuera
+	=	Saludo es un método declarado como tipo static
+}
+
+::[html]34. Propieadad del método __construct{
+	~%-33.33333%	Retorna siempre un valor
+	~%-33.33333%	Hay que invocarlo expresamente desde el objeto
+	~%-33.33333%	Segundo método que se ejecuta cuando se crea un objeto
+	=	Es un método opcioinal
+}
+
+::[html]35. Propiead del método __destruct{
+	~%-33.33333%	No retorna datos
+	~%-33.33333%	Es el último método que se ejecuta de la clase
+	~%-33.33333%	Se ejecuta de forma automática
+	=	Las tres opciones dadas son correctas
+}

@@ -1,0 +1,40 @@
+
+<!doctype html>
+<html lang="es"> 
+
+<?php require_once("template/partials/head.php") ?>
+
+<body>
+    <?php require_once("template/partials/menu.php") ?>
+    
+    <!-- Page Content -->
+    <div class="container">
+	<br><br><br><br>
+
+		<?php require_once("template/partials/mensaje.php") ?>
+		<?php require_once("template/partials/error.php") ?>
+		
+
+		<!-- Estilo card de bootstrap -->
+		<div class="card">
+			<div class="card-header">
+				AYUDA
+			</div>
+			<div class="card-body">
+				
+                Mensaje de ayuda para el usuario
+
+			</div>
+		</div>
+
+
+    </div>
+
+    <!-- /.container -->
+    
+    <?php require_once("template/partials/footer.php") ?>
+	<?php require_once("template/partials/javascript.php") ?>
+	
+</body>
+
+</html>

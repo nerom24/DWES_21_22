@@ -1,0 +1,212 @@
+::[html]1. Propiedad de los servidores dirigidos por eventos {
+	~%-33.33333%	Las tres opciones dadas son correctas# 
+	~%-33.33333%	No permiten el uso de aplicaciones CGI# 
+	~%-33.33333%	Concurrencia del procesamiento es real# 
+	=	Utilización de sockets# 
+}
+::[html]2.  ¿Cuál es el servidor web adecuado para aplicaciones ASP?{
+	~%-33.33333%	Apache Server# 
+	~%-33.33333%	Sun Java System web Server# 
+	~%-33.33333%	Ngnix# 
+	=	IIS# 
+}
+::[html]3.  Función de la capa SAPI de PHP{
+	~%-33.33333%	Interactúa con el servidor y otras aplicaciones# 
+	~%-33.33333%	Gestiona las cookies# 
+	~%-33.33333%	Información enviada por método POST# 
+	=	Las tres opciones dadas son correctas# 
+}
+::[html]4.  Componente encargado del análisis y ejecución de los scripts PHP{
+	~%-33.33333%	Capa API# 
+	~%-33.33333%	Núcleo PHP# 
+	~%-33.33333%	Capa SAPI# 
+	=	Motor Zend# 
+}
+::[html]5.  Etiquetas para inserción de código PHP en HTML{
+	~%-33.33333%	\<?script php ?\># 
+	~%-33.33333%	\<? ?\># 
+	~%-33.33333%	<%php %># 
+	=	<?php ?># 
+}
+::[html]6. ¿Donde se pueden situar los scripts PHP? {
+	~%-33.33333%	Pié del documento HTML# 
+	~%-33.33333%	Cuerpo del documento HTML# 
+	~%-33.33333%	Cabecera del documento HTML# 
+	=	En cualquier parte del documento HTML# 
+}
+::[html]7.  Para incluir comentarios en varias líneas uso{
+	~%-33.33333%	Las tres opciones son correctas# 
+	~%-33.33333%	\## 
+	~%-33.33333%	\/\/# 
+	=	\/\*# 
+}
+::[html]8.  Variable correcta en PHP{
+	~%-33.33333%	_123# 
+	~%-33.33333%	a123# 
+	~%-33.33333%	_111A# 
+	=	Las tres opciones dadas son correctas# 
+}
+::[html]9.  Tipos de variables escalares en PHP{
+	~%-33.33333%	boolena, integer, float, string, array y object# 
+	~%-33.33333%	boolena, integer y float# 
+	~%-33.33333%	array y object# 
+	=	boolena, integer, float y string# 
+}
+::[html]10.  Uso de mixed{
+	~%-33.33333%	Se usa para indicar el tipo de datos de las variables# 
+	~%-33.33333%	Se usa para indicar el tipo de dato de las funciones# 
+	~%-33.33333%	Tipo especial de variable PHP# 
+	=	Indica que una variable o función puede adminir o devolver parámetros de diferentes tipos# 
+}
+
+::[html]11.  Quiero definir la constante G{
+	~%-33.33333%	defin ("G", 9.8);# 
+	~%-33.33333%	define ("g", 9.8);# 
+	~%-33.33333%	define ("G", 9,8);# 
+	=	define ("G", 9.8);# 
+}
+::[html]12.  Deseo mostrar el valor de la constante G{
+	~%-33.33333%	Las tres opciones dadas son válidas# 
+	~%-33.33333%	printf $G;# 
+	~%-33.33333%	echo $G;# 
+	=	echo G;# 
+}
+::[html]13.  Deseo multiplicar $num por sí mismo{
+	~%-33.33333%	$num =* 2# 
+	~%-33.33333%	$num *= 2# 
+	~%-33.33333%	$num =* $num# 
+	=	$num *= $num# 
+}
+::[html]14.  Función que permite un cambio de tipo forzado{
+	~%-33.33333%	Las tres opciones dadas son correctas# 
+	~%-33.33333%	floatval()# 
+	~%-33.33333%	strval()# 
+	=	settype()# 
+}
+::[html]15.  Determine el valor de $var si "(int) $var" devuelve un cero{
+	~%-33.33333%	"dwes"# 
+	~%-33.33333%	false# 
+	~%-33.33333%	null# 
+	=	Las tres opciones dadas son correctas# 
+}
+::[html]16.  Determine el varlor de $var si "(int) $var" devuelve 6{
+	~%-33.33333%	"6"# 
+	~%-33.33333%	"6 a"# 
+	~%-33.33333%	"6 coches"# 
+	=	Las tres opciones dadas son correctas# 
+}
+::[html]17. Determine el valor de $var si "(bool) $var" devuelve false {
+	~%-33.33333%	"01"# 
+	~%-33.33333%	"10"# 
+	~%-33.33333%	true# 
+	=	0# 
+}
+::[html]18.  Resultado de la siguiente expresión "$var = 15 + " Años"{
+	~%-33.33333%	Años# 
+	~%-33.33333%	0# 
+	~%-33.33333%	15 Años# 
+	=	15# 
+}
+::[html]19.  Resultado de la siguiente expresión "$var = 'prueba' * 4 + 3"{
+	~%-33.33333%	7# 
+	~%-33.33333%	preuba4# 
+	~%-33.33333%	0# 
+	=	3# 
+}
+::[html]20.  La expresión "emtpy($var)" devuelve false{
+	~%-33.33333%	$var=false# 
+	~%-33.33333%	$var=null# 
+	~%-33.33333%	$var="0"# 
+	=	$var=true# 
+}
+::[html]21.  La expresión "isset($var)" devuelve false{
+	~%-33.33333%	$var=true# 
+	~%-33.33333%	$var=false# 
+	~%-33.33333%	$var=0# 
+	=	$var=null# 
+}
+::[html]22.  Ámbito de las variables{
+	~%-33.33333%	Las varaibles declaradas como global no se pueden usar dentro de una función# 
+	~%-33.33333%	Las varaibles declaradas se pueden usar dentro de una función# 
+	~%-33.33333%	Las tres opciones dadas son correctas# 
+	=	Las variables declaradas en una función sólo se pueden usar en dicha función# 
+}
+::[html]23.  Indique el tipo de la variable $resultado en la siguiente expresión "$resultado='100'+ 10.6" {
+	~%-33.33333%	string# 
+	~%-33.33333%	boolean# 
+	~%-33.33333%	integer# 
+	=	float# 
+}
+::[html]24.  Sentencia condicional{
+	~%-33.33333%	if, switch y for# 
+	~%-33.33333%	if# 
+	~%-33.33333%	swithc# 
+	=	if y switch# 
+}
+::[html]25.  Se puede implementar en PHP "DO UNTIL ... LOPP" {
+	~%-33.33333%	Sólo en JSP# 
+	~%-33.33333%	Sólo PHP7# 
+	~%-33.33333%	Sí# 
+	=	No# 
+}
+::[html]26.  ¿Con qué sentencia se suele usar Break;?{
+	~%-33.33333%	foreach# 
+	~%-33.33333%	for# 
+	~%-33.33333%	if then else# 
+	=	Switch# 
+}
+::[html]27.  $valores=(array(array(1,2,3), array(2,3,4)), array(array(5,6,7), array(8,9,10))) {
+	~%-33.33333%	Array de cadenas# 
+	~%-33.33333%	Matriz asociativa# 
+	~%-33.33333%	Matriz no permitida# 
+	=	Matriz de 3 dimensiones# 
+}
+::[html]28.  Definición procedimiento en PHP{
+	~%-33.33333%	procedure nombre \{instrucciones;\}# 
+	~%-33.33333%	procedure nombre () \{instrucciones;\}# 
+	~%-33.33333%	function nombre () \{instrucciones; return $valor\}# 
+	=	function nombre () \{instrucciones;\}# 
+}
+::[html]29.  Función strtolower(){
+	~%-33.33333%	Borra una cadena# 
+	~%-33.33333%	Alinea una cadena a la izquierda# 
+	~%-33.33333%	Convierte una cadena a mayúsculas# 
+	=	Converite una cadena a minúsculas# 
+}
+::[html]30. Convierte un array en un string {
+	~%-33.33333%	arraystr()# 
+	~%-33.33333%	strarray()# 
+	~%-33.33333%	explode()# 
+	=	implode()# 
+}
+::[html]31.  Función array_key(){
+	~%-33.33333%	Convierte un array en un string con los valores de la clave# 
+	~%-33.33333%	Convierte la clave en valor y el valor en clave de un array# 
+	~%-33.33333%	Devuelve el valor de un array# 
+	=	Devuelve el valor de la clave de un array# 
+}
+::[html]32.  Métodos GET y POST{
+	~%-33.33333%	Métodos del protocolo HTTP para intercambio de información entre los distintos servidores de aplicaciones# 
+	~%-33.33333%	Métodos del protocolo HTTP para intercambio de información entre cliente y el usuario# 
+	~%-33.33333%	Métodos del protocolo FTP para intercambio de información entre cliente y servidor# 
+	=	Métodos del protocolo HTTP para intercambio de información entre cliente y servidor# 
+}
+::[html]33.  Método GET{
+	~%-33.33333%	La información va identificada en la URL# 
+	~%-33.33333%	Sirve para enviar información al servidor# 
+	~%-33.33333%	Sirve para recuperar información del servidor# 
+	=	Las tres opciones dadas son correctas# 
+}
+::[html]34.  Método POST{
+	~%-33.33333%	La información va identificada en la URL# 
+	~%-33.33333%	Se suele usar para recibir información del servidor# 
+	~%-33.33333%	Método más inseguro# 
+	=	La información va codificada en el curpo de la petición HTTP# 
+}
+::[html]35.   $_SERVER['PHP_SELF'] en la etiqueta form{
+	~%-33.33333%	Muestra el nombre del usuario# 
+	~%-33.33333%	Permite cargar una biblioteca de funciones php# 
+	~%-33.33333%	El procesamiento del fichero se hace en un fichero externo# 
+	=	El procesamiento del formulario se hace en el mismo fichero php# 
+}
+

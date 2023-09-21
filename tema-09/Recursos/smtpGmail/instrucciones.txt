@@ -1,0 +1,13 @@
+Para usar phpmailer y enviar emails usando gmail:
+
+*No es necesario instalar un servidor SMTP propio en tu ordenador!!!!. Esta clase envia por sí sola los mensajes.
+
+* en php.ini se debe poner:
+      extension=php_openssl.dll
+
+*la libreria de php mailer está preparada para
+enviar usando gmail. Para usar con otro tenemos
+que cambiar el $port y el $host dentro de class.phpmailer.php.
+
+*Copiar, si no lo están, que posiblemente, al instalar xampp ya lo estarán, las librerías
+"libeay32.dll" y "ssleay32.dll" al system32 del windows. 

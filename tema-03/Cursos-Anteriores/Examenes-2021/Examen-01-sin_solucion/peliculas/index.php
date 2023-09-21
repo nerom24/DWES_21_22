@@ -1,0 +1,6 @@
+<?php
+    # Modelo: index.php
+    
+    
+
+?>

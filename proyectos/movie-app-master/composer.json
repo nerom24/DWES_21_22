@@ -1,0 +1,24 @@
+{
+    "name": "ciro23/movie-app",
+    "type": "app",
+    "description": "movie app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ciro Sorre"
+        }
+    ],
+
+    "require": {
+        "vlucas/phpdotenv": "^5.1",
+        "nikic/fast-route": "^1.3"
+    },
+
+    "autoload": {
+        "classmap": [
+            "app/core/",
+            "app/controllers/",
+            "app/models/"
+        ]
+    }
+}

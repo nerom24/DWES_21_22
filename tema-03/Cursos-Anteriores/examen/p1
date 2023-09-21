@@ -1,0 +1,13 @@
+::[html]20.  La expresión "emtpy($var)" devuelve false{
+	~%-33.33333%	$var\=false# 
+	~%-33.33333%	$var\=null# 
+	~%-33.33333%	$var\="0"# 
+	=	$var\=true# 
+}
+
+::[html]21.  La expresión "isset($var)" devuelve false{
+	~%-33.33333%	$var\=true# 
+	~%-33.33333%	$var\=false# 
+	~%-33.33333%	$var\=0# 
+	=	$var\=null# 
+}
